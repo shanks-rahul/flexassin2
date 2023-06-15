@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background: #2b2929;
+        }
+
+        .google {
+            color: white;
+            font-size: 2rem;
+        }
+
+        img {
+            height: 20px;
+            width: 20px;
+        }
+
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            width: 29rem;
+            border: 1px solid white;
+            align-items: center;
+            border-radius: 25px;
+            background: gray;
+            height: 2rem;
+
+        }
+
+        .search {
+            padding: 0 7px;
+            color: white;
+        }
+
+        .text input {
+            background-color: gray;
+            /* text-decoration: none; */
+            width: 22rem;
+        }
+
+        .icons {
+            padding: 0px 11px;
+        }
+
+        .icons :nth-child(1) {
+            padding: 0px 4px;
+        }
+
+        .container {
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="google">
+            <h1>Google</h1>
+        </div>
+        <div class="navbar">
+            <div class="search">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search"
+                    viewBox="0 0 16 16">
+                    <path
+                        d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z" />
+                </svg>
+            </div>
+            <div class="text">
+                <input type="text">
+            </div>
+            <div class="icons">
+                <img src="google-voice.png" alt="">
+                <img src="https://i.blogs.es/5af7c0/lens_product_logo_color_720px_-2-/450_1000.png" alt="">
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
